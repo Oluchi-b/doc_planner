@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+}
+
+body{
+    width: 100%;
+    height: 100px;
+}
+
+.navbar .menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .menu li:nth-child(1) a{
+    color: #00b39b;
+}
+
+.navbar .logo img{
+    width: 200px;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.icon-img{
+    width: 40px;
+    height: 40px;
+}
+
+.hero{
+    margin-top: 50px;
+}
+
+.c1{
+    background-color: #00ccb1;
+}
+
+.c2{
+    background-color: #3d83df;
+}
+
+.c3{
+    background-color: #1b2734;
+}
+
+.card{
+    min-height: 300px !important;
+}
+
+.c1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: #ffffff;
+}
+
+.c2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: #ffffff;
+}
+
+.c3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: #ffffff;
+}
+
+.right-w img{
+    width: 5.5rem;
+
+}
+
+.part1{
+    background-color: #d0faf4;
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-right{
+    width: 50%;
+    padding-left: 75px ;
+}
+
+.s-right .p1{
+    color: #00b39b;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.s-right .p2{
+    color: #9a9282 ;
+}
+
+.s-left{
+    width: 50%;
+}
+
+.part1 .s-left .cont {
+    width: 500px;
+    height: 500px;
+    /* background-color: red; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1 .s-left .left-cont1{
+    width: 500px;
+    height: 250px;
+    /* background-color: yellow; */
+    /* margin-bottom: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.part1 .s-left .left-cont2{
+    width: 500px;
+    height: 250px;
+    /* background-color: green; */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-cont1 .box1{
+    width: 200px;
+    height: 230px;
+    background-color: #ffffff;
+}
+
+.left-cont1 .box2{
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.left-cont2 .box3{
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.left-cont2 .box4{
+    width: 200px;
+    height: 230px;
+    background-color: #ffffff;
+}
+
+.left-cont1 .box1 .img1{
+    margin: 20px 75px;
+}
+
+.text-area{
+    width: 40%;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 30%;
+    /* background-color: green; */
+    text-align: center;
+
+}
+
+.text-area h4{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color:  #00b39b;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.text-area p{
+    color: #9a9282;
+    margin-bottom: 50px;
+}
+
+.firstpictures{
+    width: 1000px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.firstpictures label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.firstpictures label .btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #3d83df;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.secondpictures{
+    width: 1000px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.secondpictures label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.secondpictures label .btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #3d83df;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.thirdpictures{
+    width: 1000px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.thirdpictures label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.thirdpictures label .btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #3d83df;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.last-section{
+    display: flex;
+    margin-top: 60px;
+}
+
+.last-section h3{
+    margin-left: 30%;
+    font-weight: 350;
+}
+
+.lastbtn{
+    display: flex;
+   margin-left: 35%;
+    margin-top: 30px;
+}
+
+.lastbtn .btn2{
+    width: 300px;
+    height: 50px;
+    background-color: #3d83df;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.final-section{
+    margin-top: 78px;
+    margin-left: 10%;
+    font-size: small;
+}
+
+.final-section .final span{
+    color: gray;
+}
+
+.final span a:hover {
+    text-decoration: underline;
+}
+
+.final-section .final2{
+    width: 77%;
+    height: 30px;
+    margin-top: 2%;
+    font-size: small;
+    color: gray;
+    align-items: center;
+    text-align: center;
+}
+
+.fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.fourparts div {
+    height: 500px;
+    width: 250px;
+}
+
+.firstpair {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+
+
+.one,
+.three {
+    margin-bottom: 20px;
+}
+
+.one img,
+.two img,
+.three img,
+.four img {
+    width: 25px;
+    height: auto;
+}
+
+.fourparts h3 {
+    width: 220px;
+    font-size: 25px;
+    color: #00b39b;
+    font-weight: 300;
+    margin: 20px 0px 10px;
+}
+
+.fourparts p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #747474;
+}
+
+.secondpair {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
